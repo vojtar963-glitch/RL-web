@@ -1,0 +1,260 @@
+html {
+    overflow-x: hidden;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    width: 1000px;
+    margin: 0 auto;
+}
+a:hover {
+    color: #F5F5F5;
+    background-color: #00000066;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.moje-menu a:hover {
+    transform: scale(1.15);
+    background-color: #00000066;
+}
+body {
+    background-color: #EBEBEB;
+    margin: 0;
+    padding: 0;
+}
+
+.moje-menu {
+    position: fixed;
+    top: 0;
+    width: 1000px;
+    padding: 20px 0;
+    z-index: 1000;
+    text-align: right;
+    background-size: cover;
+    background-image: url(hotovson.jpeg);
+    background-repeat: no-repeat;
+}
+
+.moje-menu a {
+    color: #F5F5F5;
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+    display: inline-block;
+    padding: 25px;
+    transition: all 0.3s ease;
+}
+
+.sekce {
+    height: 900px;
+    width: 100%;
+    scroll-margin-top: 60px;
+    text-align: center;
+    display: block;
+}
+#blok1, #blok2, #blok3, #blok4, #blok5{
+    background-color: #262626;
+    color:#F5F5F5;
+}
+
+#blok1, #blok2, #blok3, #blok4, #blok5 h1{
+    font-family: "Trebuchet MS", "Arial Black", sans-serif;
+}
+#blok1, #blok2, #blok3, #blok4, #blok5 p{
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+
+#blok1 {
+    font-size: 20px;
+    text-align: left;
+    
+}
+#blok1 h1{
+    padding: 170px 0 15px 50px;
+
+}
+#blok1 img{
+    width: 300px;
+    border-radius: 3px;
+    border:#2E2C2C solid 2px;  
+}
+
+
+.fotka1{    
+   float:left;
+   padding: 10px 20px 10px 5px;
+   margin: 0;
+}
+.fotka2{
+    Float:right;
+    padding: 10px 5px 10px 20px;
+    margin: 0;
+}
+.text1{
+    padding: 15px 50px 0 90px;
+    display: block;
+    text-align: justify;
+}
+
+
+#blok2 {
+    font-size: 20px;
+    text-align: left;
+}
+#blok2 h1{
+    padding: 170px 0 15px 50px;
+}
+.text2  {
+    padding: 15px 50px 0 90px;
+    display: block;
+    text-align: justify;
+} 
+#blok2 img{
+    float: left;
+    width: 150px;
+    border-radius: 10px;
+    margin: 25px 28px 10px 20px;    
+    padding: 0;
+    border: white solid 3px;
+}
+.cars1{
+    padding-left: 90px;
+}
+    
+
+
+#blok3 {
+    font-size: 20px;
+    text-align: left;
+}
+.text3{
+    padding: 15px 30px 0 90px;
+    display: block;
+    text-align: center;
+
+}   
+.text3 h3{
+    font-size: 15px;
+}
+.text3 img{
+    width: 55px;
+    margin: 25px 28px 10px 20px;    
+    padding: 0;
+}
+.ranktext1{
+    padding: 0 0 0 30px;
+    display: block;
+    text-align: justify;
+}
+#blok3 h1{
+    padding: 170px 0 15px 50px
+}
+
+
+#blok4 {
+    font-size: 20px;
+    text-align: left;
+}
+#blok4 h1{
+    padding: 170px 0 15px 50px
+}
+.text4{
+    padding: 15px 50px 0 90px;
+    display: block;
+    text-align: justify;
+}  
+.text4 li{
+    margin-left: 35px;
+}
+.text4 img{
+    margin-left: 250px;
+    width: 300px;
+}
+
+#blok5 {
+    font-size: 20px;
+    text-align: left;
+}
+.text5{
+    padding: 15px 50px 0 90px;
+    display: block;
+    text-align: justify;
+}
+#blok5 h1{
+    padding: 170px 0 15px 50px
+}
+
+
+.ZEN{
+    font-size: 15px;
+    padding-right: 250px;
+}
+.text5 img{
+    width:150px;
+    float: right;
+    margin-top: -30px;
+    margin-right: 40px;
+}
+.table {
+    color: #F5F5F5;
+    width: 97%;
+    height: auto;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.table th, .table td {
+    border: 1px solid #F5F5F5; 
+    padding: 12px 15px;
+    text-align: left;
+}
+
+
+.table th {
+    background-color: #565959;
+    font-weight: bold;
+}
+
+.tr1{
+    background-color: #4a154b;
+}
+
+.tr2{
+    background-color: #1e3d59;
+}
+
+.tr3{
+    background-color: #174d32;
+}
+
+.tr4{
+    background-color: #5e4811;
+}
+
+.tr5{
+    background-color: #3d2616;
+}
+.nadpis h1 {
+    font-size: 50px;
+    margin: 0;
+}
+.zapati {
+    display: inline-block;
+    color:#F5F5F5;
+    bottom: 0;
+    width: 1000px;
+    height: 80px;
+    background-image: url(hotovson.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+.zapatitext {
+        vertical-align: bottom;
+        position: relative;
+        top: 25%;
+        text-align: center;
+}
